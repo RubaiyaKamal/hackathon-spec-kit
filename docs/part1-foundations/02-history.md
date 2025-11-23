@@ -97,6 +97,21 @@ Key developments and examples include:
 -   **Autonomous Vehicles**: The emergence of self-driving cars from companies like Google (now Waymo) and Tesla has pushed the boundaries of robotic perception and navigation in complex human environments.
 -   **Modern Humanoids**: Beyond ASIMO, projects like Boston Dynamics' Atlas demonstrate incredible agility and balance, while Tesla's Optimus represents a renewed push towards mass-produced, general-purpose humanoid robots capable of interacting and performing tasks in unstructured human environments.
 
+### ASIMO vs. Optimus: A Comparative Look at Humanoid Robotics
+
+The evolution of humanoid robots is perhaps best exemplified by iconic figures such as Honda's ASIMO and Tesla's Optimus. While both aim to mimic human form and function, they represent different eras and philosophies in humanoid development.
+
+| Feature             | Honda ASIMO (Advanced Step in Innovative Mobility) | Tesla Optimus (formerly Tesla Bot)                          |
+|---------------------|----------------------------------------------------|-------------------------------------------------------------|
+| **Developer**       | Honda (Japan)                                      | Tesla (USA)                                                 |
+| **Introduction Year** | First prototype 2000 (discontinued development 2018) | First concept 2021 (active development)                     |
+| **Primary Goal**    | Research into advanced mobility, human-robot interaction, assistance in homes/offices | Mass-produced general-purpose humanoid for dangerous, repetitive, or boring tasks |
+| **Key Features**    | Advanced bipedal walking/running, object recognition, voice recognition, hand manipulation, environment mapping, human-like gestures | Human-like hands, advanced bipedal locomotion, powered by Tesla AI (FSD), vision-based control |
+| **Locomotion**      | Highly stable bipedal walking, running, jumping, stair climbing | Bipedal walking, designed for diverse environments          |
+| **Interaction**     | Designed for public demonstrations, greeting, limited assistance; focused on human-friendly communication | Designed for practical work, eventually human-like interaction in various settings |
+| **Control System**  | Proprietary control systems, sophisticated balance algorithms | Leverages Tesla's existing AI (FSD chip), end-to-end neural networks |
+| **Current Status**  | Development discontinued in 2018; legacy for future humanoid research | Actively under development, prototypes demonstrated          |
+
 Today, robotics is undergoing a new paradigm shift with the development of large foundation models. These models enable robots to learn from vast datasets, generalize across tasks, and adapt to novel situations with unprecedented flexibility, moving away from rigid programming towards more adaptable and intelligent behavior. This promises to unlock even more diverse applications for humanoids across various industries, bringing the ancient dream of a truly intelligent, human-like companion closer to reality.
 
 ## Summary

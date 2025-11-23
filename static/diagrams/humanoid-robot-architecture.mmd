@@ -1,0 +1,46 @@
+graph TD
+    subgraph Sensing (Perception)
+        S1[Cameras]
+        S2[LiDAR/Depth Sensors]
+        S3[Microphones]
+        S4[Tactile Sensors]
+        S5[IMUs/Encoders]
+    end
+
+    subgraph Processing (Control System)
+        C1[Central Processing Unit (CPU)]
+        C2[Graphics Processing Unit (GPU)]
+        C3[Microcontrollers]
+        C4[AI/ML Algorithms]
+        C5[Path Planning & Control]
+    end
+
+    subgraph Movement (Actuation)
+        A1[Motors & Servos]
+        A2[Joints]
+        A3[End Effectors (Hands/Grippers)]
+    end
+
+    subgraph Power
+        P1[Battery]
+        P2[Power Management Unit]
+    end
+
+    Sensing --> C1
+    Sensing --> C4
+    C1 --> C2
+    C1 --> C3
+    C2 --> C4
+    C3 --> A1
+    C4 --> C5
+    C5 --> A1
+    A1 --> A2
+    A2 --> A3
+    P1 --> P2
+    P2 --> C1
+    P2 --> A1
+
+    style Sensing fill:#f9f,stroke:#333,stroke-width:2px
+    style Processing fill:#bbf,stroke:#333,stroke-width:2px
+    style Movement fill:#f9f,stroke:#333,stroke-width:2px
+    style Power fill:#bbf,stroke:#333,stroke-width:2px

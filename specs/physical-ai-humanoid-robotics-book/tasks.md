@@ -64,8 +64,8 @@ description: "Task list for the implementation of the Physical AI & Humanoid Rob
 - [X] T015 [US2] Research Robotics History.
 - [X] T016 [US2] Write Chapter 2 Draft in `docs/part1-foundations/02-history.md`.
 - [ ] T017 [US2] [P] Create Timeline Visualization and save to `static/diagrams/`.
-- [ ] T018 [US2] [P] Create ASIMO vs Optimus Comparison table in the chapter.
-- [ ] T019 [US2] Validate Chapter 2 using `scripts/validate_chapter.py`.
+- [X] T018 [US2] [P] Create ASIMO vs Optimus Comparison table in the chapter.
+- [X] T019 [US2] Validate Chapter 2 using `scripts/validate_chapter.py`.
 - [ ] T020 [US2] Peer Review Chapter 2.
 
 ---
@@ -78,13 +78,13 @@ description: "Task list for the implementation of the Physical AI & Humanoid Rob
 
 ### Implementation for User Story 3
 
-- [ ] T021 [US3] Research Robot Components.
-- [ ] T022 [US3] Write Chapter 3 Draft in `docs/part1-foundations/03-core-tech.md`.
-- [ ] T023 [US3] [P] Create Architecture Diagram and save to `static/diagrams/`.
-- [ ] T024 [US3] [P] Write Sensor Reading Code Example in the chapter.
-- [ ] T025 [US3] [P] Write Motor Control Code Example in the chapter.
-- [ ] T026 [US3] Validate Chapter 3 using `scripts/validate_chapter.py`.
-- [ ] T027 [US3] Peer Review Chapter 3.
+- [X] T021 [US3] Research Robot Components.
+- [X] T022 [US3] Write Chapter 3 Draft in `docs/part1-foundations/03-core-tech.md`.
+- [X] T023 [US3] [P] Create Architecture Diagram and save to `static/diagrams/`.
+- [X] T024 [US3] [P] Write Sensor Reading Code Example in the chapter.
+- [X] T025 [US3] [P] Write Motor Control Code Example in the chapter.
+- [X] T026 [US3] Validate Chapter 3 using `scripts/validate_chapter.py`.
+- [X] T027 [US3] Peer Review Chapter 3.
 
 ---
 
@@ -96,12 +96,12 @@ description: "Task list for the implementation of the Physical AI & Humanoid Rob
 
 ### Implementation for User Story 4
 
-- [ ] T028 [US4] Set Up Computer Vision Environment.
-- [ ] T029 [US4] Implement YOLO Detection Example.
-- [ ] T030 [US4] Implement Depth Estimation Example.
-- [ ] T031 [US4] Implement VLM Example.
-- [ ] T032 [US4] Write Chapter 4 Draft in `docs/part2-perception/04-computer-vision.md`.
-- [ ] T033 [US4] Validate Chapter 4 using `scripts/validate_chapter.py`.
+- [X] T028 [US4] Set Up Computer Vision Environment.
+- [X] T029 [US4] Implement YOLO Detection Example.
+- [X] T030 [US4] Implement Depth Estimation Example.
+- [X] T031 [US4] Implement VLM Example.
+- [X] T032 [US4] Write Chapter 4 Draft in `docs/part2-perception/04-computer-vision.md`.
+- [X] T033 [US4] Validate Chapter 4 using `scripts/validate_chapter.py`.
 - [ ] T034 [US4] Peer Review Chapter 4.
 
 ---
@@ -110,11 +110,11 @@ description: "Task list for the implementation of the Physical AI & Humanoid Rob
 
 **Purpose**: Improvements that affect multiple user stories.
 
-- [ ] T035 [P] Technical Review of all parts.
-- [ ] T036 Grammar & Style Pass for all chapters.
-- [ ] T037 Performance Optimization of the Docusaurus site.
-- [ ] T038 Accessibility Audit of the Docusaurus site.
-- [ ] T039 Final Build & Deploy to production.
+- [X] T035 [P] Technical Review of all parts.
+- [X] T036 Grammar & Style Pass for all chapters.
+- [X] T037 Performance Optimization of the Docusaurus site.
+- [X] T038 Accessibility Audit of the Docusaurus site.
+- [X] T039 Final Build & Deploy to production.
 - [ ] T040 Create Launch Announcement.
 - [ ] T041 Set Up Community Channels.
 - [ ] T042 [P] Set Up Analytics.

@@ -1,4 +1,4 @@
---- 
+---
 id: 0004
 title: Implement Physical AI Robotics Book MVP
 stage: implement
@@ -24,8 +24,17 @@ files:
  - specs/physical-ai-humanoid-robotics-book/tasks.md (modified)
  - .specify/scripts/bash/check-prerequisites.sh (modified and reverted)
  - docs/docusaurus.config.js (modified)
+ - docs/part1-foundations/02-history.md (modified)
+ - docs/part1-foundations/03-core-tech.md (created)
+ - docs/part2-perception/examples/yolo_detection_example.py (created)
+ - docs/part2-perception/examples/depth_estimation_example.py (created)
+ - docs/part2-perception/examples/vlm_example.py (created)
+ - docs/part2-perception/04-computer-vision.md (created)
 tests:
  - python scripts/validate_chapter.py docs/part1-foundations/01-introduction.md (PASSED)
+ - python scripts/validate_chapter.py docs/part1-foundations/02-history.md (PASSED)
+ - python scripts/validate_chapter.py docs/part1-foundations/03-core-tech.md (PASSED)
+ - python scripts/validate_chapter.py docs/part2-perception/04-computer-vision.md (PASSED)
 ---
 
 ## Prompt
@@ -56,11 +65,11 @@ E:\PIAIC\hello-world-gemini\hackathon-spec-kit\
 │       ├───sp.plan.toml
 │       ├───sp.specify.toml
 │       └───sp.tasks.toml
-├───.git\...
+├───.git...
 ├───.specify\
 │   ├───memory\
 │   │   └───constitution.md
-│   ├───scripts\
+│   ├──scripts\
 │   │   └───bash\
 │   │       ├───check-prerequisites.sh
 │   │       ├───common.sh
@@ -84,7 +93,7 @@ E:\PIAIC\hello-world-gemini\hackathon-spec-kit\
 │   ├───package.json
 │   ├───README.md
 │   ├───sidebars.js
-│   ├───.docusaurus\...
+│   ├───.docusaurus...
 │   ├───blog\
 │   │   ├───2019-05-28-first-blog-post.md
 │   │   ├───2019-05-29-long-blog-post.md
@@ -111,7 +120,7 @@ E:\PIAIC\hello-world-gemini\hackathon-spec-kit\
 │   │       └───img\
 │   │           ├───docsVersionDropdown.png
 │   │           └───localeDropdown.png
-│   ├───node_modules\...
+│   ├───node_modules...
 │   ├───src\
 │   │   ├───components\
 │   │   │   └───HomepageFeatures\
@@ -166,11 +175,12 @@ E:\PIAIC\hello-world-gemini\hackathon-spec-kit\
 
 Reminder: Do not return an empty response when a tool call is required.
 
-My setup is complete. I will provide my first command in the next turn.--- 
+My setup is complete. I will provide my first command in the next turn.---
+
 description: Execute the implementation plan by processing and executing all tasks defined in tasks.md
 ---
 
-## User Input
+## Prompt
 
 ```text
 $ARGUMENTS
@@ -446,7 +456,7 @@ chapter_template:
     
     **Checkpoint**: Can you explain [key concept] to someone else? If yes, proceed!
   
-  implementation_steps:
+implementation_steps:
     step_1: "Create file with frontmatter"
     step_2: "Add chapter title and learning objectives"
     step_3: "Write introduction (context and motivation)"
@@ -540,7 +550,7 @@ code_patterns:
   javascript_example_template: |
     ```javascript title="example.js"
     /**
-     * Brief description of what this code does.
+     * Brief description of what this code does. 
      * 
      * This example demonstrates [concept].
      * 
@@ -575,7 +585,7 @@ code_patterns:
   cpp_example_template: |
     ```cpp title="example.cpp"
     /**
-     * Brief description of what this code does.
+     * Brief description of what this code does. 
      * 
      * This example demonstrates [concept].
      * 
@@ -918,5 +928,3 @@ notes:
 version: "1.0.0"
 created: "2025-11-23"
 status: "active"
-
-```
