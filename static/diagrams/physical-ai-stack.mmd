@@ -1,0 +1,33 @@
+graph TD
+    A[Application Layer] --> B(Specific Use Cases: Robotics, Autonomous Vehicles, Healthcare);
+
+    B --> C(Action & Control Layer);
+    C --> D[Motion Planning & Control Systems];
+
+    D --> E(Cognition & Intelligence Layer);
+    E --> F[AI/ML Models, Planning, Decision Making];
+
+    F --> G(Perception Layer);
+    G --> H[Sensor Fusion, Object Recognition, SLAM];
+
+    H --> I(Hardware Layer);
+    I --> J[Sensors, Actuators, Compute Units];
+
+    subgraph Physical AI Stack
+        A -- (P5) Application --> B
+        B -- (P4) Control --> C
+        C -- (P3) Cognition --> D
+        D -- (P2) Perception --> E
+        E -- (P1) Hardware --> F
+    end
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style F fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bbf,stroke:#333,stroke-width:2px
+    style H fill:#f9f,stroke:#333,stroke-width:2px
+    style I fill:#bbf,stroke:#333,stroke-width:2px
+    style J fill:#f9f,stroke:#333,stroke-width:2px
+    style Physical_AI_Stack fill:#fff,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
