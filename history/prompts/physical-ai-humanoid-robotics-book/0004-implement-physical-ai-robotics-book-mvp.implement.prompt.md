@@ -65,7 +65,7 @@ E:\PIAIC\hello-world-gemini\hackathon-spec-kit\
 │       ├───sp.plan.toml
 │       ├───sp.specify.toml
 │       └───sp.tasks.toml
-├───.git...
+├───.git\][...]
 ├───.specify\
 │   ├───memory\
 │   │   └───constitution.md
@@ -93,7 +93,7 @@ E:\PIAIC\hello-world-gemini\hackathon-spec-kit\
 │   ├───package.json
 │   ├───README.md
 │   ├───sidebars.js
-│   ├───.docusaurus...
+│   ├───.docusaurus[...]
 │   ├───blog\
 │   │   ├───2019-05-28-first-blog-post.md
 │   │   ├───2019-05-29-long-blog-post.md
@@ -120,7 +120,7 @@ E:\PIAIC\hello-world-gemini\hackathon-spec-kit\
 │   │       └───img\
 │   │           ├───docsVersionDropdown.png
 │   │           └───localeDropdown.png
-│   ├───node_modules...
+│   ├───node_modules[...]
 │   ├───src\
 │   │   ├───components\
 │   │   │   └───HomepageFeatures\
@@ -479,7 +479,7 @@ code_patterns:
   python_example_template: |
     ```python title="descriptive_filename.py"
     """
-    Brief description of what this code does.
+    Brief description of what this code does. 
     
     This example demonstrates [concept].
     

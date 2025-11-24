@@ -115,9 +115,9 @@ description: "Task list for the implementation of the Physical AI & Humanoid Rob
 - [X] T037 Performance Optimization of the Docusaurus site.
 - [X] T038 Accessibility Audit of the Docusaurus site.
 - [X] T039 Final Build & Deploy to production.
-- [ ] T040 Create Launch Announcement.
-- [ ] T041 Set Up Community Channels.
-- [ ] T042 [P] Set Up Analytics.
+- [X] T040 Create Launch Announcement.
+- [X] T041 Set Up Community Channels.
+- [X] T042 [P] Set Up Analytics.
 
 ---
 ## Recurring Tasks
