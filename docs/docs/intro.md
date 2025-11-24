@@ -1,38 +1,145 @@
-# Introduction
+---
+sidebar_position: 0
+slug: /intro
+title: Welcome to Physical AI
+---
 
-Welcome to **Rise of Physical AI: The New Era of Humanoid Machines**
+# 📖 Welcome to Rise of Physical AI
 
-## What You'll Learn
+Welcome to **Rise of Physical AI: The New Era of Humanoid Machines** - your comprehensive guide to understanding the revolutionary convergence of artificial intelligence and robotics.
 
-This book explores the convergence of artificial intelligence and physical robotics...
+## 🤖 What is Physical AI?
 
-## Chapter Overview
+Physical AI represents the next frontier in artificial intelligence - where digital intelligence meets the physical world through robotics. Unlike traditional AI that exists purely in software, Physical AI enables machines to:
 
-1.  **Part 1: Foundation & Setup**
-    1.  [Introduction to Physical AI](/docs/part1-foundations/01-introduction)
-    2.  [History of Robotics](/docs/part1-foundations/02-history)
-    3.  [Core Technologies in Robotics](/docs/part1-foundations/03-core-tech)
-2.  **Part 2: Perception**
-    1.  [Computer Vision](/docs/part2-perception/04-computer-vision)
-    2.  [Sensor Fusion](/docs/part2-perception/05-sensor-fusion)
-    3.  [3D Perception & SLAM](/docs/part2-perception/06-3d-perception-and-slam)
-3.  **Part 3: AI & Intelligence**
-    1.  [Machine Learning for Robotics](/docs/part3-intelligence/07-machine-learning-for-robotics)
-    2.  [Reinforcement Learning](/docs/part3-intelligence/08-reinforcement-learning)
-    3.  [Foundation Models in Robotics](/docs/part3-intelligence/09-foundation-models-in-robotics)
-4.  **Part 4: Motion & Control**
-    1.  [Kinematics & Dynamics](/docs/part4-motion/10-kinematics-and-dynamics)
-    2.  [Motion Planning](/docs/part4-motion/11-motion-planning)
-    3.  [Control Systems](/docs/part4-motion/12-control-systems)
-5.  **Part 5: Real-World Applications**
-    1.  [Manufacturing Applications](/docs/part5-applications/13-manufacturing-applications)
-    2.  [Healthcare Applications](/docs/part5-applications/14-healthcare-applications)
-    3.  [Service Robotics](/docs/part5-applications/15-service-robotics)
-6.  **Part 6: Future & Practical Guide**
-    1.  [Ethics and Safety in Robotics](/docs/part6-future/16-ethics-and-safety-in-robotics)
-    2.  [Future Trends in Robotics](/docs/part6-future/17-future-trends-in-robotics)
-    3.  [Build Your Own Robot](/docs/part6-future/18-build-your-own-robot)
+- **See and perceive** their environment through advanced sensors
+- **Move and manipulate** objects with precision and dexterity
+- **Learn from experience** in the real world
+- **Collaborate with humans** in shared spaces
 
-## Get Started
+## 📚 Book Overview
 
-Ready to explore the future? [Start with Chapter 1 →](/docs/part1-foundations/01-introduction)
+This comprehensive guide is organized into **6 main parts** covering **18 chapters**:
+
+### 🚀 Part 1: Foundation & Setup
+Understanding the basics of Physical AI and humanoid robotics
+- Chapter 1: Introduction to Physical AI
+- Chapter 2: History of Humanoid Robotics
+- Chapter 3: Core Technologies
+
+### 👁️ Part 2: Perception
+How robots see and understand their environment
+- Chapter 4: Computer Vision
+- Chapter 5: Sensor Fusion
+- Chapter 6: 3D Perception and SLAM
+
+### 🧠 Part 3: AI & Intelligence
+The brain behind the machine
+- Chapter 7: Machine Learning for Robotics
+- Chapter 8: Reinforcement Learning
+- Chapter 9: Foundation Models in Robotics
+
+### 🤸 Part 4: Motion & Control
+Making robots move with grace and precision
+- Chapter 10: Kinematics and Dynamics
+- Chapter 11: Motion Planning
+- Chapter 12: Control Systems
+
+### 🏭 Part 5: Real-World Applications
+Physical AI in action across industries
+- Chapter 13: Manufacturing Applications
+- Chapter 14: Healthcare Applications
+- Chapter 15: Service Robotics
+
+### 🔮 Part 6: Future & Practical Guide
+Looking ahead and getting hands-on
+- Chapter 16: Ethics and Safety
+- Chapter 17: Future Trends
+- Chapter 18: Build Your Own Robot
+
+## 🎯 Who This Book Is For
+
+- **Students** interested in robotics and AI
+- **Engineers** working on robotic systems
+- **Business leaders** exploring automation
+- **Researchers** in related fields
+- **Anyone curious** about the future of robotics
+
+## 💡 How to Use This Book
+
+### For Beginners 🌱
+Start with Part 1 to build foundational knowledge, then explore specific areas of interest.
+
+### For Engineers 🔧
+Jump to Parts 3-4 for technical depth, referencing Part 2 as needed for perception concepts.
+
+### For Business Leaders 💼
+Focus on Part 5 for applications and Part 6 for future trends and strategic insights.
+
+### For Researchers 🔬
+All chapters provide comprehensive coverage with emphasis on Parts 3, 4, and 6.
+
+## 🚀 Getting Started
+
+Ready to dive in? Here's your learning path:
+
+1. **Read the Introduction** - Understand the fundamentals (you are here!)
+2. **Follow sequentially** - Each chapter builds on previous knowledge
+3. **Try the examples** - Hands-on projects reinforce learning
+4. **Join discussions** - Community forums for questions and insights
+
+## 📖 What You'll Learn
+
+By the end of this book, you will be able to:
+
+✅ Understand the fundamental principles of Physical AI
+✅ Explain how perception systems enable robots to sense their world
+✅ Describe machine learning approaches for robotic control
+✅ Analyze real-world applications across various industries
+✅ Evaluate the ethical implications and future of humanoid robotics
+✅ Build your own simple robotic system
+
+## 🤝 Open Source & Community
+
+This book is **100% open source**! You can:
+
+- 📝 Contribute improvements and corrections
+- 🌍 Translate to other languages
+- 📤 Share freely with others
+- 🔨 Build upon the knowledge
+
+### Contributing
+
+Found an error or want to improve content?
+- [GitHub Repository](#) - Submit issues or pull requests
+- [Community Discord](#) - Discuss with other readers
+- [Email Author](#) - Direct feedback
+
+## 📊 Book Statistics
+
+- **18 Chapters** across 6 comprehensive parts
+- **300+ Pages** of in-depth content
+- **50+ Diagrams** and illustrations
+- **100+ Code Examples** in Python and other languages
+- **20+ Case Studies** from leading companies
+
+## 🔗 Additional Resources
+
+- [Official Website](#) - Latest updates and resources
+- [Code Repository](#) - All code examples and projects
+- [Video Lectures](#) - Companion video content
+- [Discussion Forum](#) - Ask questions and share insights
+
+---
+
+## Ready to Begin?
+
+The future of robotics is here, and it's more exciting than ever. Let's explore how Physical AI is transforming our world and shaping the future of human-machine collaboration.
+
+👉 **[Start with Part 1: Chapter 1 - Introduction to Physical AI →](/docs/part1-foundations/01-introduction)**
+
+---
+
+*Last updated: November 2024*
+*Version: 1.0*
+*License: Creative Commons BY-SA 4.0*

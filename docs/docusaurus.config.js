@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'physical-ai-humanoid-robotics', // Usually your GitHub org/user name.
+  organizationName: 'RubaiyaKamal', // Usually your GitHub org/user name.
   projectName: 'hackathon-spec-kit', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -95,9 +95,8 @@ const config = {
             position: 'left',
             label: 'Book',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/physical-ai-humanoid-robotics/hackathon-spec-kit',
+            href: 'https://github.com/RubaiyaKamal/hackathon-spec-kit',
             label: 'GitHub',
             position: 'right',
           },
@@ -129,6 +128,16 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
+              },
+              {
+                html: `
+                    <a href="https://www.linkedin.com/in/rubaiya-kamal-0a69622ba/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn" style="display: flex; align-items: center; gap: 0.5rem;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                      </svg>
+                      LinkedIn
+                    </a>
+                  `,
               },
             ],
           },

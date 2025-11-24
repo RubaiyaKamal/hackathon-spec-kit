@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 
 export default function Home() {
@@ -12,7 +14,7 @@ export default function Home() {
           {/* Book Cover Section */}
           <div className={styles.bookImage}>
             <img
-              src="/img/physical-ai-book.png"
+              src={useBaseUrl('/img/physical-ai-book-cover.png')}
               alt="Rise of Physical AI Book Cover"
             />
             <div className={styles.glow}></div>
@@ -21,7 +23,7 @@ export default function Home() {
           {/* Content Section */}
           <div className={styles.content}>
             <span className={styles.badge}>
-              🤖 FUTURE OF ROBOTICS SERIES
+              FUTURE OF ROBOTICS SERIES
             </span>
 
             <h1 className={styles.title}>
@@ -40,11 +42,11 @@ export default function Home() {
 
             <div className={styles.features}>
               <div className={styles.feature}>
-                <span className={styles.featureIcon}>🦾</span>
+                <span className={styles.featureIcon}>🤖</span>
                 <span>Embodied Intelligence</span>
               </div>
               <div className={styles.feature}>
-                <span className={styles.featureIcon}>🏭</span>
+                <span className={styles.featureIcon}>🏗️</span>
                 <span>Industrial Revolution 5.0</span>
               </div>
               <div className={styles.feature}>
@@ -54,21 +56,21 @@ export default function Home() {
             </div>
 
             <div className={styles.buttons}>
-              <a href="/docs/intro" className={styles.primaryBtn}>
+              <Link to="/docs/intro" className={styles.primaryBtn}>
                 Start Reading <span className={styles.arrow}>→</span>
-              </a>
-              <a href="/docs/chapters" className={styles.secondaryBtn}>
-                View Chapters 📚
-              </a>
+              </Link>
+              <Link to="/blog-articles" className={styles.secondaryBtn}>
+                Latest Articles
+              </Link>
             </div>
 
             <div className={styles.stats}>
               <div className={styles.stat}>
-                <div className={styles.statNumber}>12</div>
+                <div className={styles.statNumber}>18</div>
                 <div className={styles.statLabel}>Chapters</div>
               </div>
               <div className={styles.stat}>
-                <div className={styles.statNumber}>250+</div>
+                <div className={styles.statNumber}>300+</div>
                 <div className={styles.statLabel}>Pages</div>
               </div>
               <div className={styles.stat}>

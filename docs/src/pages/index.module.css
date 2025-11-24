@@ -12,14 +12,14 @@
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 35% 65%;
   gap: 5rem;
   align-items: center;
   position: relative;
   z-index: 2;
 }
 
-/* Book Cover Section */
+/* Book Cover Section - ENHANCED VISIBILITY */
 .bookImage {
   position: relative;
   display: flex;
@@ -29,75 +29,83 @@
 
 .bookImage img {
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
   border-radius: 20px;
   box-shadow:
-    0 30px 60px rgba(0, 0, 0, 0.6),
-    0 0 80px rgba(59, 130, 246, 0.3);
+    0 0 0 3px rgba(59, 130, 246, 0.5),
+    0 30px 60px rgba(0, 0, 0, 0.8),
+    0 0 100px rgba(59, 130, 246, 0.5);
+  border: 2px solid rgba(59, 130, 246, 0.3);
   transform: perspective(1000px) rotateY(-5deg);
   transition: transform 0.5s ease;
+  background: #1e293b;
 }
 
 .bookImage:hover img {
   transform: perspective(1000px) rotateY(0deg) scale(1.02);
+  box-shadow:
+    0 0 0 4px rgba(59, 130, 246, 0.7),
+    0 40px 80px rgba(0, 0, 0, 0.9),
+    0 0 120px rgba(59, 130, 246, 0.6);
 }
 
 .glow {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%);
   filter: blur(40px);
   z-index: -1;
 }
 
-/* Content Section */
+/* Content Section - ALL WHITE TEXT */
 .content {
   color: #ffffff;
 }
 
 .badge {
   display: inline-block;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(147, 51, 234, 0.2) 100%);
-  border: 1px solid rgba(59, 130, 246, 0.3);
-  color: #60a5fa;
+  background: rgba(59, 130, 246, 0.3);
+  border: 2px solid rgba(59, 130, 246, 0.6);
+  color: #ffffff !important;
   padding: 0.6rem 1.5rem;
   border-radius: 30px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
 }
 
 .title {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 900;
   margin-bottom: 0.5rem;
   line-height: 1.1;
-  background: linear-gradient(135deg, #ffffff 0%, #60a5fa 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffffff !important;
+  text-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
 }
 
 .subtitle {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  color: #94a3b8;
+  color: #ffffff !important;
   margin-bottom: 1.5rem;
   line-height: 1.3;
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 .description {
   font-size: 1.15rem;
-  color: #cbd5e1;
+  color: #ffffff !important;
   line-height: 1.8;
   margin-bottom: 2.5rem;
   max-width: 600px;
+  opacity: 0.95;
 }
 
-/* Features */
+/* Features - BRIGHT WHITE */
 .features {
   display: flex;
   gap: 1rem;
@@ -106,30 +114,33 @@
 }
 
 .feature {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(59, 130, 246, 0.15);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(59, 130, 246, 0.4);
   padding: 0.9rem 1.5rem;
   border-radius: 30px;
   display: flex;
   align-items: center;
   gap: 0.7rem;
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff !important;
   transition: all 0.3s ease;
 }
 
 .feature:hover {
-  background: rgba(59, 130, 246, 0.1);
-  border-color: rgba(59, 130, 246, 0.3);
+  background: rgba(59, 130, 246, 0.3);
+  border-color: rgba(59, 130, 246, 0.6);
   transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(59, 130, 246, 0.3);
 }
 
 .featureIcon {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  filter: brightness(1.2);
 }
 
-/* Buttons */
+/* Buttons - BRIGHT */
 .buttons {
   display: flex;
   gap: 1.5rem;
@@ -139,28 +150,30 @@
 
 .primaryBtn {
   background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  color: #ffffff;
-  padding: 1.1rem 2.8rem;
+  color: #ffffff !important;
+  padding: 1.2rem 3rem;
   border-radius: 35px;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
 }
 
 .primaryBtn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.5);
   background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: #ffffff !important;
 }
 
 .arrow {
   display: inline-block;
   transition: transform 0.3s ease;
+  color: #ffffff !important;
 }
 
 .primaryBtn:hover .arrow {
@@ -168,30 +181,113 @@
 }
 
 .secondaryBtn {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(59, 130, 246, 0.2);
   backdrop-filter: blur(10px);
-  color: #ffffff;
-  padding: 1.1rem 2.8rem;
+  color: #ffffff !important;
+  padding: 1.2rem 3rem;
   border-radius: 35px;
-  font-weight: 600;
-  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1.15rem;
   text-decoration: none;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(59, 130, 246, 0.5);
   transition: all 0.3s ease;
 }
 
 .secondaryBtn:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(59, 130, 246, 0.35);
+  border-color: rgba(59, 130, 246, 0.7);
   transform: translateY(-3px);
+  color: #ffffff !important;
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
 }
 
-/* Stats Section */
+/* Dropdown Menu Styles */
+.dropdownContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownArrow {
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.dropdownContainer:hover .dropdownArrow {
+  transform: rotate(180deg);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: rgba(10, 14, 39, 0.98);
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(59, 130, 246, 0.4);
+  border-radius: 20px;
+  padding: 1.5rem;
+  min-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.dropdownContainer:hover .dropdownMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdownSection {
+  padding: 0.5rem;
+}
+
+.dropdownSection h4 {
+  color: #3b82f6;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+}
+
+.dropdownItem {
+  display: block;
+  color: #cbd5e1 !important;
+  text-decoration: none;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  margin-bottom: 0.3rem;
+}
+
+.dropdownItem:hover {
+  background: rgba(59, 130, 246, 0.2);
+  color: #ffffff !important;
+  transform: translateX(5px);
+  padding-left: 1rem;
+}
+
+
+/* Stats Section - BRIGHT WHITE */
 .stats {
   display: flex;
   gap: 3rem;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 2px solid rgba(59, 130, 246, 0.3);
 }
 
 .stat {
@@ -199,20 +295,20 @@
 }
 
 .statNumber {
-  font-size: 2.5rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff !important;
   margin-bottom: 0.3rem;
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
 }
 
 .statLabel {
-  font-size: 0.9rem;
-  color: #94a3b8;
+  font-size: 0.95rem;
+  color: #ffffff !important;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  opacity: 0.9;
 }
 
 /* Animated Background */
@@ -244,9 +340,12 @@
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0) scale(1);
   }
+
   50% {
     transform: translateY(-30px) scale(1.05);
   }
@@ -321,5 +420,9 @@
   .stats {
     gap: 1.5rem;
     flex-wrap: wrap;
+  }
+
+  .statNumber {
+    font-size: 2.5rem;
   }
 }

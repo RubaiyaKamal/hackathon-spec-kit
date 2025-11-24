@@ -1,0 +1,226 @@
+.blogPage {
+    display: flex;
+    min-height: 100vh;
+    background: #0a0e27;
+    width: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 300px;
+    min-width: 300px;
+    flex-shrink: 0;
+    background: #0f1419;
+    border-right: 1px solid rgba(59, 130, 246, 0.2);
+    padding: 2rem 0;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.sidebarHeader {
+    padding: 0 1.5rem 1.5rem;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+    margin-bottom: 1.5rem;
+}
+
+.sidebarHeader h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.sidebarHeader p {
+    color: #3b82f6;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.sidebarSection {
+    margin-bottom: 2rem;
+    padding: 0 1.5rem;
+}
+
+.sidebarSection h3 {
+    color: #3b82f6;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+}
+
+.sidebarSection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebarSection li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebarSection a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.sidebarSection a:hover {
+    color: #ffffff;
+    background: rgba(59, 130, 246, 0.15);
+    transform: translateX(5px);
+}
+
+/* Main Content Styles */
+.mainContent {
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+    padding: 3rem;
+    overflow-x: hidden;
+}
+
+.header {
+    margin-bottom: 3rem;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
+}
+
+.header p {
+    color: #cbd5e1;
+    font-size: 1.2rem;
+}
+
+/* Category Sections */
+.categorySection {
+    margin-bottom: 4rem;
+}
+
+.categoryTitle {
+    color: #3b82f6;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid rgba(59, 130, 246, 0.3);
+}
+
+.articlesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Article Cards */
+.articleCard {
+    background: rgba(15, 20, 25, 0.8);
+    border: 2px solid rgba(59, 130, 246, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    scroll-margin-top: 2rem;
+    display: block;
+}
+
+.articleCard:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+}
+
+.articleCard h3 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.articleCard p {
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.articleFooter {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(59, 130, 246, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articleMeta {
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.readMore {
+    color: #3b82f6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.articleCard:hover .readMore {
+    color: #60a5fa;
+    transform: translateX(3px);
+}
+
+/* Responsive Design */
+@media (max-width: 996px) {
+    .blogPage {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: static;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+    }
+
+    .mainContent {
+        padding: 2rem 1.5rem;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .articlesGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainContent {
+        padding: 1.5rem 1rem;
+    }
+
+    .header h1 {
+        font-size: 1.75rem;
+    }
+
+    .categoryTitle {
+        font-size: 1.5rem;
+    }
+}
