@@ -1,42 +1,87 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      title="Rise of Physical AI"
+      description="The New Era of Humanoid Machines - Understanding the Future of Robotics and AI">
+      <main className={styles.hero}>
+        <div className={styles.container}>
+          {/* Book Cover Section */}
+          <div className={styles.bookImage}>
+            <img
+              src="/img/physical-ai-book.png"
+              alt="Rise of Physical AI Book Cover"
+            />
+            <div className={styles.glow}></div>
+          </div>
+
+          {/* Content Section */}
+          <div className={styles.content}>
+            <span className={styles.badge}>
+              🤖 FUTURE OF ROBOTICS SERIES
+            </span>
+
+            <h1 className={styles.title}>
+              Rise of Physical AI
+            </h1>
+
+            <h2 className={styles.subtitle}>
+              The New Era of Humanoid Machines
+            </h2>
+
+            <p className={styles.description}>
+              Explore the revolutionary convergence of artificial intelligence and
+              robotics. Discover how humanoid machines are transforming industries,
+              reshaping society, and redefining what it means to be human.
+            </p>
+
+            <div className={styles.features}>
+              <div className={styles.feature}>
+                <span className={styles.featureIcon}>🦾</span>
+                <span>Embodied Intelligence</span>
+              </div>
+              <div className={styles.feature}>
+                <span className={styles.featureIcon}>🏭</span>
+                <span>Industrial Revolution 5.0</span>
+              </div>
+              <div className={styles.feature}>
+                <span className={styles.featureIcon}>🧠</span>
+                <span>Human-Robot Collaboration</span>
+              </div>
+            </div>
+
+            <div className={styles.buttons}>
+              <a href="/docs/intro" className={styles.primaryBtn}>
+                Start Reading <span className={styles.arrow}>→</span>
+              </a>
+              <a href="/docs/chapters" className={styles.secondaryBtn}>
+                View Chapters 📚
+              </a>
+            </div>
+
+            <div className={styles.stats}>
+              <div className={styles.stat}>
+                <div className={styles.statNumber}>12</div>
+                <div className={styles.statLabel}>Chapters</div>
+              </div>
+              <div className={styles.stat}>
+                <div className={styles.statNumber}>250+</div>
+                <div className={styles.statLabel}>Pages</div>
+              </div>
+              <div className={styles.stat}>
+                <div className={styles.statNumber}>100%</div>
+                <div className={styles.statLabel}>Open Source</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Animated Background Elements */}
+        <div className={styles.bgCircle1}></div>
+        <div className={styles.bgCircle2}></div>
       </main>
     </Layout>
   );
