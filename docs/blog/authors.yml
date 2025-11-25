@@ -23,3 +23,13 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+rubaiya:
+  name: Rubaiya Kamal
+  title: Robotics & AI Enthusiast
+  url: https://www.linkedin.com/in/rubaiya-kamal-0a69622ba/
+  image_url: https://github.com/RubaiyaKamal.png
+  page: true
+  socials:
+    linkedin: rubaiya-kamal-0a69622ba
+    github: RubaiyaKamal

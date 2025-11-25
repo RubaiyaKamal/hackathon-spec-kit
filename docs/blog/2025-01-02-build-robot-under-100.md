@@ -1,5 +1,5 @@
 ---
-slug: build-robot-under-100
+slug: robot-under-100
 title: How to Build a Robot for Under $100
 authors: [rubaiya]
 tags: [diy, budget, beginner, tutorial]

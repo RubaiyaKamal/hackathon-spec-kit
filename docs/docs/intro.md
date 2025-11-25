@@ -136,7 +136,7 @@ Found an error or want to improve content?
 
 The future of robotics is here, and it's more exciting than ever. Let's explore how Physical AI is transforming our world and shaping the future of human-machine collaboration.
 
-👉 **[Start with Part 1: Chapter 1 - Introduction to Physical AI →](/docs/part1-foundations/01-introduction)**
+👉 **[Start with Part 1: Chapter 1 - Introduction to Physical AI →](/docs/intro)**
 
 ---
 

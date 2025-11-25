@@ -1,5 +1,5 @@
 ---
-slug: reinforcement-learning-robot-control
+slug: reinforcement-learning
 title: Reinforcement Learning for Robot Control
 authors: [rubaiya]
 tags: [reinforcement-learning, ai, control, machine-learning]

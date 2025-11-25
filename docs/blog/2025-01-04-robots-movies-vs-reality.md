@@ -1,5 +1,5 @@
 ---
-slug: robots-movies-vs-reality
+slug: movies-vs-reality
 title: Robots in Movies vs Reality - What Hollywood Gets Wrong
 authors: [rubaiya]
 tags: [fun, movies, reality-check, culture]

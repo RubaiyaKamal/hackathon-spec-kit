@@ -17,3 +17,23 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+humanoid:
+  label: Humanoid
+  permalink: /tags/humanoid
+  description: Humanoid robots
+
+tesla:
+  label: Tesla
+  permalink: /tags/tesla
+  description: Tesla and its technologies
+
+robots:
+  label: Robots
+  permalink: /tags/robots
+  description: General robotics
+
+analysis:
+  label: Analysis
+  permalink: /tags/analysis
+  description: In-depth analysis

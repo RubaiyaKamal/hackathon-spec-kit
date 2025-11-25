@@ -1,5 +1,5 @@
 ---
-slug: simulation-before-reality
+slug: simulation-robotics
 title: Why Simulation Matters - Testing Robots Before Reality
 authors: [rubaiya]
 tags: [simulation, testing, development, tools]

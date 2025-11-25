@@ -1,5 +1,5 @@
 ---
-slug: impressive-robot-demos-2024
+slug: robot-demos-2024
 title: Most Impressive Robot Demonstrations of 2024
 authors: [rubaiya]
 tags: [demos, 2024, highlights, innovation]

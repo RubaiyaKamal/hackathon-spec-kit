@@ -1,5 +1,5 @@
 ---
-slug: machine-learning-models-robotics
+slug: ml-models-robotics
 title: Machine Learning Models Used in Robotics
 authors: [rubaiya]
 tags: [machine-learning, ai, software, deep-learning]

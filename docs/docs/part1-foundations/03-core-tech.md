@@ -317,7 +317,7 @@ This chapter has provided an overview of the core technologies that constitute a
 
 ## Next Chapter
 
-In [Chapter 4: Computer Vision for Robotics](./04-computer-vision.md), we will explore how humanoid robots perceive and understand their visual environment using advanced computer vision techniques.
+In [Chapter 4: Computer Vision for Robotics](../part2-perception/04-computer-vision.md), we will explore how humanoid robots perceive and understand their visual environment using advanced computer vision techniques.
 
 ---
 
