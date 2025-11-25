@@ -14,7 +14,7 @@
   display: grid;
   grid-template-columns: 35% 65%;
   gap: 5rem;
-  align-items: center;
+  align-items: start;
   position: relative;
   z-index: 2;
 }
@@ -25,11 +25,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
 }
 
 .bookImage img {
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
+  height: auto;
   border-radius: 20px;
   box-shadow:
     0 0 0 3px rgba(59, 130, 246, 0.5),

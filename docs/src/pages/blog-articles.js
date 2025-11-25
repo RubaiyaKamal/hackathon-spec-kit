@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import styles from './blog-articles.module.css';
 
 const blogArticles = [
@@ -24,7 +25,7 @@ const blogArticles = [
     {
         category: 'Robot Spotlights',
         articles: [
-            { title: 'Tesla Optimus Deep Dive', description: 'Technical specs and future predictions', slug: 'tesla-optimus' },
+            // Removed: { title: 'Tesla Optimus Deep Dive', description: 'Technical specs and future predictions', slug: 'tesla-optimus' },
             { title: 'Spot vs Atlas Comparison', description: 'Head-to-head robot comparison', slug: 'spot-vs-atlas' },
             { title: 'Amazon Warehouse Robots', description: '750,000 robots transforming logistics', slug: 'amazon-warehouse-robots' },
             { title: 'da Vinci Surgical Robot', description: 'How surgical robotics works', slug: 'da-vinci-surgical-robot' },
@@ -34,8 +35,8 @@ const blogArticles = [
         category: 'Hardware & Components',
         articles: [
             { title: 'Choosing Robot Sensors', description: 'Ultrasonic, LiDAR, cameras, and more', slug: 'choosing-robot-sensors' },
-            { title: 'Servo vs Stepper Motors', description: 'Detailed motor comparison guide', slug: 'servo-vs-stepper' },
-            { title: 'Best Microcontrollers 2025', description: 'Arduino, ESP32, Raspberry Pi compared', slug: 'best-microcontrollers-2025' },
+            { title: 'Servo vs Stepper Motors', description: 'Detailed motor comparison guide', slug: 'servo-vs-stepper-motors' }, // Corrected slug
+            { title: 'Best Microcontrollers 2025', description: 'Arduino, ESP32, Raspberry Pi compared', slug: 'best-microcontrollers-robotics-2025' }, // Corrected slug
             { title: '3D Printing for Robotics', description: 'Materials, tips, and best practices', slug: '3d-printing-robotics' },
         ]
     },
@@ -106,10 +107,10 @@ export default function BlogArticles() {
                             <h2 className={styles.categoryTitle}>{section.category}</h2>
                             <div className={styles.articlesGrid}>
                                 {section.articles.map((article, articleIdx) => (
-                                    <a
+                                    <Link
                                         key={articleIdx}
                                         id={article.slug}
-                                        href={`/blog/${article.slug}`}
+                                        to={`/blog/${article.slug}`}
                                         className={styles.articleCard}
                                         style={{ textDecoration: 'none', color: 'inherit' }}
                                     >
@@ -119,7 +120,7 @@ export default function BlogArticles() {
                                             <span className={styles.articleMeta}>500 words · 3 min read</span>
                                             <span className={styles.readMore}>Read Article →</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                         </section>

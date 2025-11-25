@@ -37,3 +37,352 @@ analysis:
   label: Analysis
   permalink: /tags/analysis
   description: In-depth analysis
+
+career:
+  label: Career
+  permalink: /tags/career
+  description: Career related content
+
+learning:
+  label: Learning
+  permalink: /tags/learning
+  description: Learning resources and guides
+
+guide:
+  label: Guide
+  permalink: /tags/guide
+  description: How-to guides and tutorials
+
+beginners:
+  label: Beginners
+  permalink: /tags/beginners
+  description: Content for beginners
+
+education:
+  label: Education
+  permalink: /tags/education
+  description: Educational content
+
+universities:
+  label: Universities
+  permalink: /tags/universities
+  description: Information about universities
+
+transition:
+  label: Transition
+  permalink: /tags/transition
+  description: Career transition topics
+
+software:
+  label: Software
+  permalink: /tags/software
+  description: Software related content
+
+personal:
+  label: Personal
+  permalink: /tags/personal
+  description: Personal development and stories
+
+mathematics:
+  label: Mathematics
+  permalink: /tags/mathematics
+  description: Math concepts in robotics
+
+fundamentals:
+  label: Fundamentals
+  permalink: /tags/fundamentals
+  description: Fundamental concepts
+
+open-source:
+  label: Open Source
+  permalink: /tags/open-source
+  description: Open source projects and tools
+
+community:
+  label: Community
+  permalink: /tags/community
+  description: Robotics community and collaboration
+
+tools:
+  label: Tools
+  permalink: /tags/tools
+  description: Robotics tools and utilities
+
+ros:
+  label: ROS
+  permalink: /tags/ros
+  description: Robot Operating System
+
+competitions:
+  label: Competitions
+  permalink: /tags/competitions
+  description: Robotics competitions and events
+
+events:
+  label: Events
+  permalink: /tags/events
+  description: Robotics events
+
+resources:
+  label: Resources
+  permalink: /tags/resources
+  description: Additional resources
+
+media:
+  label: Media
+  permalink: /tags/media
+  description: Robotics in media
+
+startups:
+  label: Startups
+  permalink: /tags/startups
+  description: Robotics startups and innovation
+
+industry:
+  label: Industry
+  permalink: /tags/industry
+  description: Robotics industry insights
+
+business:
+  label: Business
+  permalink: /tags/business
+  description: Business aspects of robotics
+
+trends:
+  label: Trends
+  permalink: /tags/trends
+  description: Future trends in robotics
+
+boston-dynamics:
+  label: Boston Dynamics
+  permalink: /tags/boston-dynamics
+  description: Boston Dynamics robots
+
+comparison:
+  label: Comparison
+  permalink: /tags/comparison
+  description: Comparisons of robot models
+
+quadruped:
+  label: Quadruped
+  permalink: /tags/quadruped
+  description: Quadruped robots
+
+warehouse:
+  label: Warehouse
+  permalink: /tags/warehouse
+  description: Warehouse automation
+
+amazon:
+  label: Amazon
+  permalink: /tags/amazon
+  description: Amazon robotics
+
+automation:
+  label: Automation
+  permalink: /tags/automation
+  description: Automation technologies
+
+logistics:
+  label: Logistics
+  permalink: /tags/logistics
+  description: Logistics in robotics
+
+medical:
+  label: Medical
+  permalink: /tags/medical
+  description: Medical robotics
+
+surgery:
+  label: Surgery
+  permalink: /tags/surgery
+  description: Surgical robots
+
+healthcare:
+  label: Healthcare
+  permalink: /tags/healthcare
+  description: Robotics in healthcare
+
+da-vinci:
+  label: Da Vinci
+  permalink: /tags/da-vinci
+  description: Da Vinci surgical system
+
+sensors:
+  label: Sensors
+  permalink: /tags/sensors
+  description: Robot sensors
+
+hardware:
+  label: Hardware
+  permalink: /tags/hardware
+  description: Robotics hardware
+
+components:
+  label: Components
+  permalink: /tags/components
+  description: Robotic components
+
+motors:
+  label: Motors
+  permalink: /tags/motors
+  description: Robot motors
+
+actuators:
+  label: Actuators
+  permalink: /tags/actuators
+  description: Robotic actuators
+
+microcontrollers:
+  label: Microcontrollers
+  permalink: /tags/microcontrollers
+  description: Microcontrollers in robotics
+
+electronics:
+  label: Electronics
+  permalink: /tags/electronics
+  description: Robotics electronics
+
+3d-printing:
+  label: 3D Printing
+  permalink: /tags/3d-printing
+  description: 3D printing for robotics
+
+manufacturing:
+  label: Manufacturing
+  permalink: /tags/manufacturing
+  description: Manufacturing robotics
+
+prototyping:
+  label: Prototyping
+  permalink: /tags/prototyping
+  description: Robotics prototyping
+
+machine-learning:
+  label: Machine Learning
+  permalink: /tags/machine-learning
+  description: Machine learning in robotics
+
+ai:
+  label: AI
+  permalink: /tags/ai
+  description: Artificial Intelligence in robotics
+
+deep-learning:
+  label: Deep Learning
+  permalink: /tags/deep-learning
+  description: Deep learning in robotics
+
+reinforcement-learning:
+  label: Reinforcement Learning
+  permalink: /tags/reinforcement-learning
+  description: Reinforcement learning in robotics
+
+control:
+  label: Control
+  permalink: /tags/control
+  description: Robot control systems
+
+simulation:
+  label: Simulation
+  permalink: /tags/simulation
+  description: Robotics simulation
+
+testing:
+  label: Testing
+  permalink: /tags/testing
+  description: Robotics testing
+
+development:
+  label: Development
+  permalink: /tags/development
+  description: Robotics development
+
+computer-vision:
+  label: Computer Vision
+  permalink: /tags/computer-vision
+  description: Computer vision in robotics
+
+libraries:
+  label: Libraries
+  permalink: /tags/libraries
+  description: Robotics libraries
+
+opencv:
+  label: OpenCV
+  description: OpenCV library
+
+failures:
+  label: Failures
+  permalink: /tags/failures
+  description: Robot failures and lessons
+
+lessons:
+  label: Lessons
+  permalink: /tags/lessons
+  description: Lessons learned in robotics
+
+history:
+  label: History
+  permalink: /tags/history
+  description: History of robotics
+
+fun:
+  label: Fun
+  permalink: /tags/fun
+  description: Fun aspects of robotics
+
+movies:
+  label: Movies
+  permalink: /tags/movies
+  description: Robots in movies
+
+reality-check:
+  label: Reality Check
+  permalink: /tags/reality-check
+  description: Robotics reality check
+
+culture:
+  label: Culture
+  permalink: /tags/culture
+  description: Robotics culture
+
+demos:
+  label: Demos
+  permalink: /tags/demos
+  description: Robot demonstrations
+
+2024:
+  label: '2024'
+  permalink: /tags/2024
+  description: Robotics in 2024
+
+highlights:
+  label: Highlights
+  permalink: /tags/highlights
+  description: Robotics highlights
+
+innovation:
+  label: Innovation
+  permalink: /tags/innovation
+  description: Robotics innovation
+
+diy:
+  label: DIY
+  permalink: /tags/diy
+  description: DIY robotics projects
+
+budget:
+  label: Budget
+  permalink: /tags/budget
+  description: Budget-friendly robotics
+
+beginner:
+  label: Beginner
+  permalink: /tags/beginner
+  description: Robotics for beginners
+
+tutorial:
+  label: Tutorial
+  permalink: /tags/tutorial
+  description: Robotics tutorials

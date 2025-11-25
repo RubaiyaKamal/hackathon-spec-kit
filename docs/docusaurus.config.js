@@ -84,10 +84,6 @@ const config = {
       },
       navbar: {
         title: 'Physical AI & Humanoid Robotics',
-        logo: {
-          alt: 'Physical AI & Humanoid Robotics Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',
